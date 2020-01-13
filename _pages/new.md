@@ -7,8 +7,8 @@ permalink: /new/
 # Shelly 2.5 Rollladen- /Jalousiesteuerung mit Tasmota
 ## Tools
 Editor: [Visual Studio Code](https://code.visualstudio.com/download) mit [PlatformIO IDE](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)  
-Tasmota Version: [8.1.0.3](https://github.com/arendst/Tasmota/tree/master)
-Flashing Programm: [Tasmotizer](https://github.com/tasmota/tasmotizer)
+Tasmota Version: [8.1.0.3](https://github.com/arendst/Tasmota/tree/master)  
+Flashing Programm: [Tasmotizer](https://github.com/tasmota/tasmotizer)  
 Flashing Tool: [USB zu TTL-Konverter-Modul](https://www.amazon.de/USB-TTL-Konverter-Modul-mit-eingebautem-CP2102/dp/B00AFRXKFU/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=USB+zu+TTL-Konverter-Modul+mit+eingebautem+in+CP2102&qid=1578948764&s=computers&sr=1-3) 
 
 ## Firmware kompilieren
