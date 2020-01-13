@@ -27,8 +27,8 @@ Speicherort: `Tasmota/build_output/firmware/tasmota.bin`
 **Notiz:**	_Niemals die 230V Versorgung nutzen um den Shelly zu flashen! 	Immer die 3.3V USB-TTL Konverter Versorgung nutzen._
 
 Den Shelly 2.5 mit dem USB-TTL Konverter verbinden.
-Ich empfehle die Stiftleisten aus der [Tasmota Documentation](https://tasmota.github.io/docs/#/devices/Shelly-2.5)
-(https://shelly.cloud/wp-content/uploads/2019/01/pin_out-650x397.png „GPIO Pinout“)
+Ich empfehle die Stiftleisten aus der [Tasmota Documentation](https://tasmota.github.io/docs/#/devices/Shelly-2.5)  
+![GPIO Pinout](https://shelly.cloud/wp-content/uploads/2019/01/pin_out-650x397.png)
 
 * Port auswählen
 * Open Image:  `Tasmota/build_output/firmware/tasmota.bin`
