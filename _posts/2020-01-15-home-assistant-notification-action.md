@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Home Assistant - iOS Notification with Action Button
+title:  Home Assistant - iOS Notification & Action Button
 categories: [💡Smart Home,🔨DIY,]
 excerpt: Ich besitze seit kurzem einen 3D Drucker ([Artillery Genius](https://youtu.be/koZo6GaNFi0)). Ein ordentlicher Druck dauert mehrere Stunden und ist oftmals erst mitten in der Nacht fertiggestellt. Deshalb habe ich eine Automation in Home Assistant erstellt, welche mir per iOS Push Notification mitteilt...
 ---
