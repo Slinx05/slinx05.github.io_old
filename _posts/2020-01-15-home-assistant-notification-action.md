@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Home Assistant - iOS Notification with Action Button
-categories: [💡Smart Home,🔨DIY]
+categories: [💡Smart Home,🔨DIY,]
 excerpt: Ich besitze seit kurzem einen 3D Drucker ([Artillery Genius](https://youtu.be/koZo6GaNFi0)). Ein ordentlicher Druck dauert mehrere Stunden und ist oftmals erst mitten in der Nacht fertiggestellt. Deshalb habe ich eine Automation in Home Assistant erstellt, welche mir per iOS Push Notification mitteilt...
 ---
 
 Ich besitze seit kurzem einen 3D Drucker - [Artillery Genius](https://youtu.be/koZo6GaNFi0). Ein ordentlicher Druck dauert mehrere Stunden und ist oftmals erst mitten in der Nacht fertiggestellt. Deshalb habe ich eine Automation in Home Assistant erstellt, welche mir per iOS Push Notification mitteilt, dass mein Druck fertig ist und per Default den Drucker nach 5 Minuten ausschaltet. Innerhalb dieser 5 Minuten habe ich die Möglichkeit den Ausschaltvorgang abzubrechen um z.B. einen weiteren Druck zu starten.
 
->**Achtung:** _Die Aktion des iOS Button funktioniert im LAN ohne weitere Einstellungen. Wollt ihr die Aktion per nternet ausführen, müsst ihr sicherstellen, dass Home Assistant über das Internet erreichbar ist!_
+>**Achtung:** _Die Aktion des iOS Button funktioniert im LAN ohne weitere Einstellungen. Willst du die Aktion per Internet ausführen, musst du sicherstellen, dass Home Assistant über das Internet erreichbar ist!_
 
 ![iOS Notification](/images/homeassistant-ios-notification.jpg)
 ![iOS Notification Button](/images/homeassistant-ios-notification-button.jpg)
@@ -16,7 +16,7 @@ Ich besitze seit kurzem einen 3D Drucker - [Artillery Genius](https://youtu.be/k
 
 Editor: [Visual Studio Code](https://code.visualstudio.com/download)  
 Smart Plug: [Gosund WLAN Steckdose](https://www.amazon.de/Steckdose-Stromverbrauch-Funktion-Fernsteurung-Netzwerk/dp/B07B911Y6V/ref=sr_1_5?__mk_de_DE=ÅMÅŽÕÑ&crid=10MOVZFNOBKV7&keywords=gosund+wlan+steckdose&qid=1579114863&sprefix=gosund%2Cinstant-video%2C151&sr=8-5) + [ESPHome Firmware](https://esphome.io)  
-Controller: [Raspberry Pi4](https://www.amazon.de/LABISTS-Ultimatives-Aus-Schaltnetzteil-Kühlkörper-HDMI-Kabel/dp/B07YYWZDX7/ref=sr_1_6?__mk_de_DE=ÅMÅŽÕÑ&crid=3NNARRA6HD8JO&keywords=raspberry+pi+4&qid=1579115215&smid=A31LN8HLP979CO&sprefix=raspberry+p%2Caps%2C157&sr=8-6) + [Hassio](https://www.home-assistant.io/hassio/installation/)
+Controller: [Raspberry Pi4](https://www.amazon.de/LABISTS-Ultimatives-Aus-Schaltnetzteil-Kühlkörper-HDMI-Kabel/dp/B07YYWZDX7/ref=sr_1_6?__mk_de_DE=ÅMÅŽÕÑ&crid=3NNARRA6HD8JO&keywords=raspberry+pi+4&qid=1579115215&smid=A31LN8HLP979CO&sprefix=raspberry+p%2Caps%2C157&sr=8-6) + [Hassio](https://www.home-assistant.io/hassio/installation/)  
 App: [Home Assistant Companion](https://companion.home-assistant.io)
 
 ## Allgemeine Config
@@ -84,7 +84,7 @@ Anschließend wird die Benachrichtigung an mein iPhone gesendet. Nach 5 Minuten 
 
 ## Automation 02
 
-Die zweite Automation wird ausgelöst wenn der iOS Button gedrückt wurde und wird durch den Input Boolean vermerkt.
+Die zweite Automation wird ausgelöst, wenn der iOS Button gedrückt wurde und der Input Boolean vermerkt den Zustand.
 Da die Automation 01 nach 5 Minuten beendet ist, wird der Input Boolean nach 05:10 Minuten zurückgesetzt
 
 ```yaml
