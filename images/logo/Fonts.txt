@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Arcon
+Author: Zarthwork
+Url: http://www.fontsquirrel.com/fonts/arcon
+
+Font: Gilroy
+Author: Radomir Tinkov
+Url: https://www.fontsquirrel.com/fonts/gilroy
