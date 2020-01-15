@@ -5,7 +5,7 @@ categories: [💡Smart Home,🔨DIY]
 excerpt: Ich besitze seit kurzem einen 3D Drucker ([Artillery Genius](https://youtu.be/koZo6GaNFi0)). Ein ordentlicher Druck dauert mehrere Stunden und ist oftmals erst mitten in der Nacht fertiggestellt. Deshalb habe ich eine Automation in Home Assistant erstellt, welche mir per iOS Push Notification mitteilt...
 ---
 
-Ich besitze seit kurzem einen 3D Drucker ([Artillery Genius](https://youtu.be/koZo6GaNFi0)). Ein ordentlicher Druck dauert mehrere Stunden und ist oftmals erst mitten in der Nacht fertiggestellt. Deshalb habe ich eine Automation in Home Assistant erstellt, welche mir per iOS Push Notification mitteilt, dass mein Druck fertig ist und per Default den Drucker nach 5 Minuten ausschaltet. Innerhalb dieser 5 Minuten habe ich die Möglichkeit den Ausschaltvorgang abzubrechen um z.B. einen weiteren Druck zu starten.
+Ich besitze seit kurzem einen 3D Drucker - [Artillery Genius](https://youtu.be/koZo6GaNFi0). Ein ordentlicher Druck dauert mehrere Stunden und ist oftmals erst mitten in der Nacht fertiggestellt. Deshalb habe ich eine Automation in Home Assistant erstellt, welche mir per iOS Push Notification mitteilt, dass mein Druck fertig ist und per Default den Drucker nach 5 Minuten ausschaltet. Innerhalb dieser 5 Minuten habe ich die Möglichkeit den Ausschaltvorgang abzubrechen um z.B. einen weiteren Druck zu starten.
 
 >**Achtung:** _Die Aktion des iOS Button funktioniert im LAN ohne weitere Einstellungen. Wollt ihr die Aktion per nternet ausführen, müsst ihr sicherstellen, dass Home Assistant über das Internet erreichbar ist!_
 
