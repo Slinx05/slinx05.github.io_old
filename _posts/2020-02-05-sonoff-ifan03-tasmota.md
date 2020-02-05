@@ -57,11 +57,11 @@ Das Kabel welches am Klemmblock des Decken-Montagesockels angeschlossen ist, hab
 | -                  | -            | LIGHT (blau)  | Stecker (rot)       |
 | Erdung (grün/gelb) | -            | -             | Erdung (grün/gelb)  |
 
-Achtet darauf, alle Kabel ordentlich und platzsparend zu verbauen, denn die Abdeckung des Decken-Montagesockels hat nicht viel Platz.
+Achte darauf, alle Kabel ordentlich und platzsparend zu verbauen, denn die Abdeckung des Decken-Montagesockels hat nicht viel Platz.
 
 ## Home Assistant Config
 
-Mein MQTT Topic: `ventilator_01` muss durch eures ersetzt werden!
+Mein MQTT Topic: `ventilator_01` muss durch dein Topic ersetzt werden!
 
 ### Allgemein
 
