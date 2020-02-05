@@ -78,6 +78,7 @@ light: !include_dir_merge_list light/
 
 `fan/ventilator01.yaml`
 
+{% raw %}
 ```yaml
 - platform: mqtt  
   name: ventilator_01
@@ -108,6 +109,7 @@ light: !include_dir_merge_list light/
     - medium
     - high
 ```
+{% endraw %}
 
 ### Lampe
 
