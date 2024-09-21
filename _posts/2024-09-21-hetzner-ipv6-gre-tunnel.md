@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  Hetzner Network IPv6 [GRE Tunnel]
-categories: [🧱OPNsense, 🏢Hetzner, 🛜IPv6]
-excerpt: Im Hetzner Netzwerk für Cloud Server wird nur IPv4 Kommunikation unterstützt,keine IPv6 Kommunikation.
+categories: [🧱OPNsense, 🏢Hetzner, 🛜IPv6, 🖥️Ubuntu]
+excerpt: Im Hetzner Netzwerk für Cloud Server wird nur IPv4 Kommunikation unterstützt, keine IPv6 Kommunikation.
 ---
 
 # Hetzner Network IPv6
@@ -21,7 +21,7 @@ Ubuntu Version:   `24.04.1`
 2. GRE Interface `gre0` erstellen
 3. GRE Interface `gre0` zuweisen & aktivieren
 4. Firewall Gruppe `DMZv6Pub` erstellen / Member hinzufügen
-5. Firewall Regeln für `DMZv4Pirv` `DMZv6Pub` erstellen
+5. Firewall Regeln für `DMZv4Pirv`, `DMZv6Pub` erstellen
 6. GRE Tunnel am Server konfigurieren
 
 ## OPNsense
