@@ -100,7 +100,7 @@ Allow IPv6 IPV6-ICMP Any -> Any | Description: Ping Allowed
 [Netplan][3] ist ein Renderer zur Abstraktion der Netzwerkkonfiguration.
 
 `netplan generate` - Erstellt die Backend-Config anhand deiner YAML-Config  
-`netplan try -timeout 30` - Aktiviert die Config und macht einen Rollback, falls keine Bestätigung erfolgt
+`netplan try -timeout 30` - Aktiviert die Config und macht einen Rollback, falls keine Bestätigung erfolgt  
 `etc/netplan/90-tunnels.yaml` - Die YAML-Config Datei
 
 ```yaml
